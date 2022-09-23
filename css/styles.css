@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body.home {
+  background: url(/images/bk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body.con {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  background: rgba(245, 243, 243, 0.904);
+  height: 40px;
+  border-radius: 10px;
+  animation: anim_nav linear 1s s;
+}
+
+ul {
+  width: 100%;
+}
+ul li {
+  width: 20%;
+  float: left;
+  line-height: 40px;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  transition: 1s;
+  font-size: 20px;
+  border-radius: 10px;
+}
+ul li:hover {
+  background: #560404;
+  color: white;
+  box-shadow: 3px 3px 20px #b61515, 3px 3px 20px #b61515;
+}
+section {
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+.welcome {
+  width: 600px;
+  height: 200px;
+  background: rgba(245, 243, 243, 0.904);
+  margin: 0 2em;
+  animation: 2s linear 1 anim_welcom;
+  display: inline-block;
+}
+.about {
+  width: 100%;
+  padding: 78px 0px;
+  background: url(/images/bg\ building.jpg);
+  background-size: cover;
+}
+.about-text {
+  width: 130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.go-up {
+  width: 120px;
+  font-size: 40px;
+  color: white;
+  background: black;
+  align-items: baseline;
+  display: flex;
+  justify-content: end;
+  place-items: center;
+}
+.about-text h1 {
+  color: black;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 200px;
+}
+.about-text p {
+  color: purple;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+}
+.about-text p:hover {
+  color: #ff0000;
+  box-shadow: 4px 4px 6px #ff0000, 4px 4px 6px #ff0000;
+}
+.numbers {
+  width: 100%;
+  padding: 78px 0px;
+  background: url(/images/bg\ building.jpg);
+  background-size: cover;
+}
+.our-shops {
+  position: relative;
+  min-height: 40vh;
+  display: grid;
+  place-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.our-shops h1 {
+  background: black;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  align-self: center;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  color: aliceblue;
+  font-family: pangolin;
+  font-weight: bold;
+  border: 2px solid brown;
+}
+.our-shops h1:hover {
+  color: aliceblue;
+  box-shadow: 3px 3px 20px #ff0000, 3px 3px 20px #ff0000;
+}
+.our-shops table {
+  background: black;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  align-self: center;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  color: aliceblue;
+  font-family: pangolin;
+  font-weight: bold;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+.hours {
+  width: 150px;
+  height: 50px;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  align-self: left;
+  font-size: 17px;
+  font-weight: 200;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  color: aliceblue;
+  font-family: pangolin;
+  border: 2px solid brown;
+}
+.hours:hover {
+  color: aliceblue;
+  box-shadow: 3px 3px 20px #ff0000, 3px 3px 20px #ff0000;
+}
+.working table {
+  background: black;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  align-self: center;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  color: aliceblue;
+  font-family: pangolin;
+  font-weight: bold;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+.working table th {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.our-shops table th {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+}
+td {
+  font-size: 18px;
+}
+th {
+  background: brown;
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: rgba(255, 0, 0, 0.548);
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: url(/images/bg\ building.jpg);
+  background-size: cover;
+}
+.contact-me .contact h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.kay {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+}
+.imgs {
+  width: 100%;
+}
+.imgs img {
+  width: 30%;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.imgs img:hover {
+  transform: scale(1.1);
+}
+.coffee {
+  width: 300px;
+  height: 510px;
+  background: rgba(241, 232, 232, 0.904);
+  float: right;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 2.5em;
+}
+.coffee div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.coffee img {
+  width: 150px;
+  border-radius: 10px;
+}
+@keyframes anim_nav {
+  0% {
+    margin-top: -100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes anim_welcom {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
