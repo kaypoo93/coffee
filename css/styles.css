@@ -351,23 +351,3 @@ tr:nth-child(odd) {
   width: 150px;
   border-radius: 10px;
 }
-@keyframes anim_nav {
-  0% {
-    margin-top: -100px;
-    opacity: 0;
-  }
-  100% {
-    margin-top: 0px;
-    opacity: 1;
-  }
-}
-@keyframes anim_welcom {
-  0% {
-    margin-top: 100px;
-    opacity: 0;
-  }
-  100% {
-    margin-top: 0px;
-    opacity: 1;
-  }
-}
