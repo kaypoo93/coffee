@@ -295,6 +295,24 @@ tr:nth-child(odd) {
   transition: 0.5s;
   color: #deb887;
 }
+.contact-form .input-box input[type="submit"] {
+  width: 100px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.contact-form .input-box input[type="reset"] {
+  width: 100px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
 .kay {
   color: white;
   text-align: center;
