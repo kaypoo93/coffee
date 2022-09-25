@@ -437,6 +437,6 @@ tr:nth-child(odd) {
     background-color: white;
   }
   .input-box textarea {
-    background-color: white;
+    background: white;
   }
 }
