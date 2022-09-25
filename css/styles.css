@@ -433,7 +433,7 @@ tr:nth-child(odd) {
   .container {
     flex-direction: column;
   }
-  .input-box input textarea {
+  .input-box input .input-box textarea {
     background-color: white;
   }
 }
