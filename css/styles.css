@@ -420,11 +420,17 @@ tr:nth-child(odd) {
   }
   .our-shops table {
     font-size: 10px;
-    width: 30px;
-    height: 10px;
+    position: relative;
+    width: 50%;
+    left: 168px;
   }
-
+  .our-shops table th {
+    border-radius: 10px;
+  }
   .contact-me {
     padding: 50px;
+  }
+  .container {
+    flex-direction: column;
   }
 }
